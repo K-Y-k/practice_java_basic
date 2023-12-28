@@ -19,6 +19,7 @@ public class ClassStart3 {
         student2.grade = 80;
 
         // .키워드로 객체의 필드 값에 접근한다. ex) student1.name = x001(참조값).name으로 접근
+        // 아직 아쉬운 부분 : 출력 부분에서 아직 객체 변수명을 따로 지정한 문제
         System.out.println("이름: " + student1.name + " 나이:" + student1.age + " 성적:"+ student1.grade);
         System.out.println("이름: " + student2.name + " 나이:" + student2.age + " 성적:"+ student2.grade);
     }
